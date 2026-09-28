@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caching & Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Data & Media
+data/input/*
+!data/input/.gitkeep
+data/output/*
+!data/output/.gitkeep
+data/samples/*
+!data/samples/.gitkeep
+
+# Weights & Pretrained Models
+weights/
+*.pt
+*.onnx
+*.engine
+
+# Logs
+logs/
+*.log
